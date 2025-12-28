@@ -1,0 +1,21 @@
+
+# Ignore  secret environment file
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore  personal virtual environment
+venv/
+
+# Ignore OS clutter
+.DS_Store
+Thumbs.db
+
+# Ignore local logs and databases
+*.log
+*.db
+
+# Ignore big output files
+*.zip
