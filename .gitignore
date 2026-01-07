@@ -19,3 +19,8 @@ Thumbs.db
 
 # Ignore big output files
 *.zip
+
+# Ingore WORD and PDF documents
+*.doc
+*.docx
+*.pdf
