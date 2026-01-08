@@ -1,4 +1,5 @@
 
+Python 3.9+ 
 
 # External dependencies: pandas, numpy, and psycopg2 
 pandas>=2.0

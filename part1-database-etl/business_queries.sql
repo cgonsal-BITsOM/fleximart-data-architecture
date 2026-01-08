@@ -1,6 +1,9 @@
-## Task 1.3: Business Query Implementation (15 marks)
+## Task 1.3: Business Query Implementation 
 
 # Query 1: Customer Purchase History
+# Business Question: "Generate a detailed report showing each customer's name, email, total number of orders placed, and total amount spent. 
+-- Include only customers who have placed at least 2 orders and spent more than ₹5,000. Order by total amount spent in descending order."
+
 
 SELECT
     (c.first_name || ' ' || c.last_name) AS customer_name,
@@ -21,6 +24,8 @@ ORDER BY
     total_spent DESC;
 
 # Query 2: Product Sales Analysis (5 marks)
+# Business Question: "For each product category, show the category name, number of different products sold, total quantity sold, and total revenue generated. 
+## Only include categories that have generated more than ₹10,000 in revenue. Order by total revenue descending
 
 SELECT
     p.category AS category,
@@ -37,7 +42,11 @@ HAVING
 ORDER BY
     total_revenue DESC;
 
+
 # Query 3: Monthly Sales Trend (5 marks)
+Business Question: "Show monthly sales trends for the year 2024. For each month, display the month name, total number of orders, total revenue, 
+and the running total of revenue (cumulative revenue from January to that month)."
+
 
 WITH monthly AS (
     SELECT
