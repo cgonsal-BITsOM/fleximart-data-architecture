@@ -1,0 +1,12 @@
+
+Python 3.9+ 
+
+# External dependencies: pandas, numpy, and psycopg2 
+pandas>=2.0
+numpy>=1.24
+psycopg2-binary>=2.9
+
+# Standard library: os, sys, uuid, time, logging, re, dataclasses, typing, datetime, and logging.handlers are built-in;
+
+
+# Runtime requirements: An accessible PostgreSQL server with connection/credentials 

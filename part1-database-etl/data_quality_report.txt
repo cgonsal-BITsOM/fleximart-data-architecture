@@ -1,0 +1,19 @@
+data_quality_report.txt - ETL Run Summary
+Run ID: 464a5e2d
+[customers_raw.csv] -> customers
+ Records processed: 26
+ Duplicates removed: 1
+ Missing values handled: 5
+ Records loaded successfully (customers): 25
+[products_raw.csv] -> products
+ Records processed: 20
+ Duplicates removed: 0
+ Missing values handled: 0
+ Records loaded successfully (products): 20
+[sales_raw.csv] -> orders, order_items
+ Records processed: 41
+ Duplicates removed: 1
+ Missing values handled: 5
+ Records loaded successfully (orders): 35
+ Records loaded successfully (order_items): 35
+ Total records loaded from sales: 70
